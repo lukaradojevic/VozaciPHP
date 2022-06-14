@@ -27,6 +27,7 @@
                         <th>Tim</th>
                         <th>Sajt</th>
                         <th></th>
+                        <th></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -48,6 +49,8 @@
                             <td><?php echo $VOZAC['naziv'] ?></td>
                             <td><?php echo $VOZAC['sajt'] ?></td>
                             <td><button type="button" class="btn btn-danger" id="dugme-brisanje" value="<?php echo $VOZAC['id']; ?>">Obriši</button></td>
+                            <td><a href="edit-vozac.php?ID=<?php echo $VOZAC['id']; ?>"><button type="button" class="btn btn-info" id="dugme-izmena">Izmena</button></a></td>
+
                         </tr>
 
                     <?php } ?>
