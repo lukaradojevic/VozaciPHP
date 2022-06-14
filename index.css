@@ -18,3 +18,22 @@
     margin-top: 8%;
     margin-left: 48.5%;
 }
+
+.forma-add-vozac{
+    width: 40%;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+#novi-vozac-naslov{
+    margin-top: 5%;
+    margin-left: 11%;
+    font-size: 35px;
+}
+
+#button-novi-vozac{
+    margin-top: 2%;
+    margin-left: 33%;
+    font-size: 20px;
+    width: 30%;
+}
