@@ -68,7 +68,7 @@
                 </select>
             </div>
 
-            <button type="button" id="button-novi-vozac" class="btn btn-danger">Sačuvaj izmene</button>
+            <button type="button" id="button-edit-vozac" value="<?php echo $_GET['ID'] ?>" class="btn btn-danger">Sačuvaj izmene</button>
 
         </div>
 
