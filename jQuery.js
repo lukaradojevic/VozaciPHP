@@ -2,6 +2,7 @@ $(function () {
     dodajNovogVozaca();
     obrisiVozaca();
     updateVozaca();
+    $('#tabela').DataTable();
 });
 
 
