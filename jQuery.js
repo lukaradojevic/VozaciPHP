@@ -1,5 +1,6 @@
 $(function () {
     dodajNovogVozaca();
+    obrisiVozaca();
 });
 
 
@@ -24,6 +25,26 @@ function dodajNovogVozaca() {
                     window.location.replace('index.html');
                 }
             });
+
+    })
+}
+
+function obrisiVozaca() {
+
+    $(document).on('click', '#dugme-brisanje', function () {
+
+        var id = $(this).val();
+
+        $.ajax({
+            url: 'obrisiVozaca.php',
+            method: 'post',
+            data: { P_id: id },
+
+            success: function () {
+                alert('Vozač je obrisan!');
+                window.location.reload();
+            }
+        })
 
     })
 }

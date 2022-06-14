@@ -26,6 +26,7 @@
                         <th>Titule</th>
                         <th>Tim</th>
                         <th>Sajt</th>
+                        <th></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -46,6 +47,7 @@
                             <td><?php echo $VOZAC['titule'] ?></td>
                             <td><?php echo $VOZAC['naziv'] ?></td>
                             <td><?php echo $VOZAC['sajt'] ?></td>
+                            <td><button type="button" class="btn btn-danger" id="dugme-brisanje" value="<?php echo $VOZAC['id']; ?>">Obriši</button></td>
                         </tr>
 
                     <?php } ?>
@@ -59,7 +61,8 @@
 
     </div>
 
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="jquery.js"></script>
 </body>
 
 </html>
